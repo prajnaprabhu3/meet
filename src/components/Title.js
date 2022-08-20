@@ -2,7 +2,7 @@ import React from 'react'
 
 const Title = ({title}) => {
   return (
-   <div className="title-wrapper">
+   <div className="title-wrapper" style={{margin:"2rem"}}>
     {title}
    </div>
   )
